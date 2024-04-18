@@ -1,6 +1,5 @@
 package com.example.ucvtalk_v1
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.ucvtalk_v1.databinding.ActivityPostLoginBinding
@@ -15,7 +14,7 @@ class PostLoginActivity : AppCompatActivity() {
         binding = ActivityPostLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.btBack.setOnClickListener{onBackPressedDispatcher.onBackPressed()}
-        binding.btFuncionA.setOnClickListener{temp()}
+        binding.btFuncionA.setOnClickListener{}
         getAndShowName()
     }
 
@@ -23,10 +22,5 @@ class PostLoginActivity : AppCompatActivity() {
         val name = intent.getStringExtra("INTENT_NAME")
         binding.tVUsuario.text = "BIENVENIDO $name"
 
-    }
-
-    fun temp(){
-        val intent = Intent(this,tempActivity::class.java)
-        startActivity(intent)
     }
 }
