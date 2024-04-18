@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">UCVTalk_v1</string>
+    <!-- Place holders - Login -->
+    <string name="phUser">Usuario</string>
+    <string name="phPass">Contraseña</string>
+    <string name="phButton_login">Ingresar</string>
+
+    <!-- Descripción de imagenes - Login -->
+    <string name="imgUser">An user icon</string>
+    <string name="imgPass">An password icon</string>
+
+    <!-- .............................................................. -->
+
+    <!-- Place holders - PostLogin -->
+    <string name="phBtFuncionA">Funcion A</string>
+    <string name="phBtFuncionB">Funcion B</string>
+    <string name="phBtFuncionC">Funcion C</string>
+    <string name="phBtBack">Volver</string>
+
+    <!-- Etiquetas - PostLogin -->
+    <string name="lbUser">Usuario</string>
+
+</resources>
