@@ -49,9 +49,9 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     //Unidad de tamaño escalable
-    implementation("com.intuit.sdp:sdp-android:1.1.1")
-    implementation("com.intuit.sdp:ssp-android:1.1.1")
-
-    //ImageView Redondeadas
-    implementation("com.makeramen:roundedimageview:2.3.0")
+//    implementation("com.intuit.sdp:sdp-android:1.1.1")
+//    implementation("com.intuit.sdp:ssp-android:1.1.1")
+//
+//    //ImageView Redondeadas
+//    implementation("com.makeramen:roundedimageview:2.3.0")
 }
