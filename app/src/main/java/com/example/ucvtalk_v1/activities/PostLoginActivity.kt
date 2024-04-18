@@ -1,4 +1,4 @@
-package com.example.ucvtalk_v1
+package com.example.ucvtalk_v1.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
