@@ -50,6 +50,7 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
 
     //Unidad de tamaño escalable
 //    implementation("com.intuit.sdp:sdp-android:1.1.1")
